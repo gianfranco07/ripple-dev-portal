@@ -10,7 +10,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ## Serving the File
 
-The `xrp-ledger.toml` file is meant to be served by a web server. The file should be available at the following URL:
+The `xrp-ledger.toml` file is meant to be served by a web server. The file should be available at the following URL:https://www.coinbase.com/join/ricci_j
 
 ```
 https://{DOMAIN}/.well-known/xrp-ledger.toml
