@@ -1,6 +1,53 @@
-node_modules/
-*~
-.DS_Store
-__pycache__
-out/
-package-lock.json
+Transaction json
+{
+    "type": "payment",
+    "address": "r4xA1Yem5CweXdxTn6vCQJ8FK2XwgXzNAX",
+    "sequence": 1,
+    "id": "999B96092F90A31A28BD7A0E148A7DD5015C044D898B5B836AAFE9B2EBE5EA68",
+    "specification": {
+        "source": {
+            "address": "r4xA1Yem5CweXdxTn6vCQJ8FK2XwgXzNAX",
+            "maxAmount": {
+                "currency": "XRP",
+                "value": "9.999999"
+            }
+        },
+        "destination": {
+            "address": "rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg",
+            "tag": 1460187099
+        },
+        "memos": [
+            {
+                "type": "client",
+                "format": "plain\/text",
+                "data": "Bithomp tool v. 0.4.9"
+            }
+        ]
+    },
+    "outcome": {
+        "result": "tesSUCCESS",
+        "timestamp": "2019-07-24T14:55:02.000Z",
+        "fee": "0.000012",
+        "balanceChanges": {
+            "r4xA1Yem5CweXdxTn6vCQJ8FK2XwgXzNAX": [
+                {
+                    "currency": "XRP",
+                    "value": "-10.000011"
+                }
+            ],
+            "rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg": [
+                {
+                    "currency": "XRP",
+                    "value": "9.999999"
+                }
+            ]
+        },
+        "orderbookChanges": [],
+        "ledgerVersion": 21265269,
+        "indexInLedger": 5,
+        "deliveredAmount": {
+            "currency": "XRP",
+            "value": "9.999999"
+        }
+    }
+}
